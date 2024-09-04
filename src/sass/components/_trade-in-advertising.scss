@@ -39,6 +39,10 @@
   font-size: 16px;
   line-height: 137%;
   color: var(--black-2);
+
+  &:hover {
+    background-color: var(--grey-4);
+  }
 }
 
 .trade-in-advertising__items {

@@ -149,5 +149,10 @@ const newsSwiper = new Swiper(".news__slider", {
       slidesPerView: 2,
       spaceBetween: 20,
     },
+    992: {
+      centeredSlides: false,
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
   },
 });
