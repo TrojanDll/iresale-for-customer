@@ -1,0 +1,139 @@
+.trade-in-advertising__banner {
+  overflow: hidden;
+  position: relative;
+  padding: 66px 60px 78px 60px;
+  background: linear-gradient(225deg, #369032 0%, #3c9939 100%);
+}
+
+.trade-in-advertising__banner-bg {
+  position: absolute;
+  z-index: 1;
+  top: -286px;
+  right: -40px;
+}
+
+.trade-in-advertising__title {
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.trade-in-advertising__description {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144%;
+  color: #ffffff;
+  width: 333px;
+}
+
+.trade-in-advertising__button {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  margin-top: 32px;
+  padding: 12px 24px;
+  width: fit-content;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  color: var(--black-2);
+}
+
+.trade-in-advertising__items {
+  margin-top: 16px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.trade-in-advertising__item {
+  padding: 24px 30px;
+}
+
+.trade-in-advertising__item__arrrow {
+  position: absolute;
+  top: 33px;
+  right: 24px;
+}
+
+.trade-in-advertising__item__description {
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  color: var(--black-2);
+}
+
+@media (max-width: 992px) {
+  .trade-in-advertising__item__arrrow {
+    display: none;
+  }
+
+  .trade-in-advertising__title {
+    margin-top: 470px;
+  }
+
+  .trade-in-advertising__item {
+    padding: 24px 16px;
+  }
+
+  .trade-in-advertising__description {
+    z-index: 2;
+    position: relative;
+  }
+
+  .trade-in-advertising__banner-bg {
+    right: unset;
+    left: -336px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .trade-in-advertising__banner {
+    padding-bottom: 50px;
+  }
+
+  .trade-in-advertising__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .trade-in-advertising__banner-bg {
+    width: 181%;
+    height: auto;
+    top: 0;
+    left: 0;
+    transform: translate(-34%, -33%);
+  }
+
+  .trade-in-advertising__banner {
+    padding: 30px 20px;
+  }
+
+  .trade-in-advertising__title {
+    font-size: 24px;
+  }
+
+  .trade-in-advertising__description {
+    font-size: 16px;
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .trade-in-advertising__title {
+    margin-top: 354px;
+  }
+}
+
+@media (max-width: 380px) {
+  .trade-in-advertising__title {
+    margin-top: 280px;
+  }
+}

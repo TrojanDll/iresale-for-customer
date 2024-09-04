@@ -1,0 +1,72 @@
+.installment-plan {
+  margin-top: 32px;
+}
+
+.installment-plan__substrate {
+  padding: 102px 32px;
+}
+
+.installment-plan__wrapper {
+  width: 100%;
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.installment-plan__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  color: var(--black-2);
+}
+
+.installment-plan__img {
+  margin-top: 16px;
+}
+
+.installment-plan__switcher {
+  margin-top: 32px;
+}
+
+.installment-plan__select {
+  width: 100%;
+}
+
+.installment-plan__parameters-wrapper {
+  margin-top: 10px;
+}
+
+.installment-plan__notice {
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: var(--gray-2);
+}
+
+.installment-plan__submit {
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .installment-plan__substrate {
+    padding: 72px 32px;
+  }
+
+  .installment-plan__img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .installment-plan__description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 390px) {
+  .installment-plan__substrate {
+    padding: 48px 20px;
+  }
+}

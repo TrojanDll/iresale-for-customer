@@ -1,0 +1,51 @@
+.nice-select {
+  border: 1px solid var(--light);
+  border-radius: 8px;
+  padding: 13px 17px;
+  // width: 100%;
+  width: fit-content;
+  height: 46px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: none;
+  clear: none;
+  transform: none;
+  left: 0;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--black);
+
+  &::after {
+    content: "";
+    position: static;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    width: 20px;
+    top: unset;
+    transform-origin: unset;
+    transform: none;
+    // transform: translateY(1px);
+    // transform: translateY(-50%);
+    background: url("./../assets/img/icons/chevron-down.svg") center center/cover no-repeat;
+  }
+
+  & .current {
+    padding-right: 8px;
+  }
+}
+
+.nice-select.open:after {
+  transform: rotate(-180deg);
+}
+
+.nice-select .nice-select-dropdown {
+  width: 100%;
+  z-index: 1000;
+  // position: fixed;
+}

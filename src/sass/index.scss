@@ -1,0 +1,24 @@
+// service
+@import "./service/reset";
+@import "./service/variables";
+@import "./service/fonts";
+
+// ui
+@import "./ui/substrate";
+@import "./ui/button";
+@import "./ui/link-arrow";
+@import "./ui/swiper-navigation";
+
+// components
+@import "./components/body";
+@import "./components/section";
+@import "./components/container";
+@import "./components/header";
+@import "./components/promo";
+@import "./components/goods";
+@import "./components/trade-in-advertising";
+@import "./components/guarantee-advertising";
+@import "./components/reviews";
+@import "./components/news";
+@import "./components/social-banner";
+@import "./components/footer";
