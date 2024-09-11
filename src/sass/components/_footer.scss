@@ -9,6 +9,12 @@
   justify-content: space-between;
 }
 
+.footer_grey {
+  & .footer-wrapper {
+    background-color: var(--grey-4);
+  }
+}
+
 .footer__logo-column {
   height: 100%;
 }

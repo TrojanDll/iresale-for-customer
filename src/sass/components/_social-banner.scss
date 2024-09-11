@@ -6,6 +6,12 @@
   padding: 52px;
 }
 
+.social-banner_grey {
+  & .social-banner__wrapper {
+    background-color: var(--grey-4);
+  }
+}
+
 .social-banner__bg {
   position: absolute;
   top: -117px;
